@@ -11,6 +11,16 @@ const geistSans = localFont({
 export const metadata: Metadata = {
   title: "株式会社Waalsforce",
   description: "AIで未来を創造する - 株式会社Waalsforce",
+  openGraph: {
+    title: "株式会社Waalsforce",
+    description: "AIで未来を創造する - 株式会社Waalsforce",
+    type: "website",
+    url: "https://your-domain.com",
+  },
+  robots: {
+    index: true,
+    follow: true,
+  }
 };
 
 export default function RootLayout({

@@ -29,6 +29,9 @@ export function CompanyWebsiteComponent() {
               src="/images/back2.jpg"
               alt="AI Technology Background"
               className="w-full h-full object-cover"
+              loading="eager"
+              width={1920}
+              height={1080}
             />
             <div className="absolute inset-0 bg-black/50" />
           </div>
