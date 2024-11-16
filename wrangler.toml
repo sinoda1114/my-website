@@ -3,3 +3,8 @@ compatibility_date = "2023-11-16"
 
 [site]
 bucket = ".vercel/output/static"
+
+[[headers]]
+for = "/*"
+[headers.values]
+X-Robots-Tag = "index, follow"
