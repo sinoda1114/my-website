@@ -5,11 +5,6 @@ const nextConfig = {
   },
   output: 'export',
   swcMinify: true,
-  experimental: {
-    optimizeCss: true,
-    optimizePackageImports: ['lucide-react'],
-    craCompat: true
-  },
   compiler: {
     removeConsole: process.env.NODE_ENV === 'production'
   },
