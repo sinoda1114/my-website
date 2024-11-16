@@ -9,17 +9,28 @@ const geistSans = localFont({
 });
 
 export const metadata: Metadata = {
-  title: "株式会社Waalsforce",
-  description: "AIで未来を創造する - 株式会社Waalsforce",
+  title: "株式会社Waalsforce | AIソリューション・コンサルティング",
+  description: "AIで未来を創造する - 最先端の生成AI技術とコンサルティングで、ビジネスの可能性を広げます。株式会社Waalsforceは、AIソリューションの提供からコンサルティングまで、包括的なサービスを提供します。",
   openGraph: {
-    title: "株式会社Waalsforce",
-    description: "AIで未来を創造する - 株式会社Waalsforce",
+    title: "株式会社Waalsforce | AIソリューション・コンサルティング",
+    description: "AIで未来を創造する - 最先端の生成AI技術とコンサルティングで、ビジネスの可能性を広げます。",
     type: "website",
-    url: "https://your-domain.com",
+    url: "https://waalsforce.co.jp",
+    siteName: "株式会社Waalsforce",
+    locale: "ja_JP",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "株式会社Waalsforce | AIソリューション・コンサルティング",
+    description: "AIで未来を創造する - 最先端の生成AI技術とコンサルティングで、ビジネスの可能性を広げます。",
   },
   robots: {
     index: true,
     follow: true,
+    googleBot: {
+      index: true,
+      follow: true
+    }
   }
 };
 
