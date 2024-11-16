@@ -8,8 +8,7 @@ const nextConfig = {
   experimental: {
     optimizeCss: true,
     optimizePackageImports: ['lucide-react'],
-    craCompat: true,
-    optimizeServerReact: true
+    craCompat: true
   },
   compiler: {
     removeConsole: process.env.NODE_ENV === 'production'
