@@ -5,6 +5,15 @@ const nextConfig = {
   },
   output: 'export',
   swcMinify: true,
+  experimental: {
+    optimizeCss: true,
+    optimizePackageImports: ['lucide-react'],
+    craCompat: true,
+    optimizeServerReact: true
+  },
+  compiler: {
+    removeConsole: process.env.NODE_ENV === 'production'
+  },
   async headers() {
     return [
       {
