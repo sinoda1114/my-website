@@ -1,7 +1,9 @@
 'use client'
 
 import React from 'react'
-import { Brain, Bot, MapPin, Phone, Mail } from 'lucide-react'
+import { Brain, Bot, MapPin, Mail } from 'lucide-react'
+
+
 
 export function CompanyWebsiteComponent() {
   return (
