@@ -1,0 +1,6 @@
+name = "my-website"
+compatibility_date = "2023-11-16"
+compatibility_flags = ["nodejs_compat"]
+
+[build]
+command = "npm run build"

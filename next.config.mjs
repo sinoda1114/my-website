@@ -5,9 +5,6 @@ const nextConfig = {
   },
   output: 'export',
   swcMinify: true,
-  experimental: {
-    runtime: 'edge'
-  }
 };
 
 export default nextConfig;
