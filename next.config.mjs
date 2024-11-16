@@ -4,7 +4,10 @@ const nextConfig = {
     unoptimized: true
   },
   output: 'standalone',
-  swcMinify: true
+  swcMinify: true,
+  experimental: {
+    runtime: 'edge'
+  }
 };
 
 export default nextConfig;
