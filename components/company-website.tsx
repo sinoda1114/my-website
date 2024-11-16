@@ -8,10 +8,10 @@ import { Brain, Bot, MapPin, Mail } from 'lucide-react'
 export function CompanyWebsiteComponent() {
   return (
     <div className="min-h-screen bg-white text-gray-900">
-      <header className="fixed w-full bg-white/80 backdrop-blur-sm z-50 border-b">
+      <header role="banner" className="fixed w-full bg-white/80 backdrop-blur-sm z-50 border-b">
         <div className="container mx-auto px-4 py-4 flex justify-between items-center">
           <h1 className="text-2xl font-bold">株式会社 Waalsforce</h1>
-          <nav>
+          <nav role="navigation" aria-label="メインナビゲーション">
             <ul className="flex space-x-6">
               <li><a href="#home" className="hover:text-blue-600 transition-colors">ホーム</a></li>
               <li><a href="#services" className="hover:text-blue-600 transition-colors">サービス</a></li>
@@ -22,12 +22,12 @@ export function CompanyWebsiteComponent() {
         </div>
       </header>
 
-      <main>
-        <section id="home" className="relative h-[70vh] flex items-center">
+      <main role="main">
+        <section id="home" aria-label="ホーム" className="relative h-[70vh] flex items-center">
           <div className="absolute inset-0 z-0">
             <img
               src="/images/back2.jpg"
-              alt="AI Technology Background"
+              alt="最先端のAI技術を象徴する抽象的なデジタルアート"
               className="w-full h-full object-cover"
               loading="eager"
               width={1920}
