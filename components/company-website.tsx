@@ -133,6 +133,17 @@ export function CompanyWebsiteComponent(): ReactElement {
             </div>
           </div>
         </section>
+
+        <div className="container mx-auto px-4 pb-20">
+          <div className="flex justify-center">
+            <a 
+              href="/legal/tokushoho" 
+              className="text-gray-600 hover:text-gray-900 transition-colors text-sm"
+            >
+              特定商取引法に基づく表記
+            </a>
+          </div>
+        </div>
       </main>
 
       <footer className="bg-gray-800 text-white py-8">
@@ -141,18 +152,6 @@ export function CompanyWebsiteComponent(): ReactElement {
             <div className="text-sm">
               <p>&copy; Waalsforce Inc. All rights reserved.</p>
             </div>
-            <nav className="text-sm">
-              <ul className="flex space-x-4">
-                <li>
-                  <a 
-                    href="/legal/tokushoho" 
-                    className="text-gray-400 hover:text-white transition-colors"
-                  >
-                    特定商取引法に基づく表記
-                  </a>
-                </li>
-              </ul>
-            </nav>
           </div>
         </div>
       </footer>
