@@ -1,11 +1,10 @@
 'use client'
 
 import React from 'react'
+import type { ReactElement } from 'react'
 import { Brain, Bot, MapPin, Mail } from 'lucide-react'
 
-
-
-export function CompanyWebsiteComponent() {
+export function CompanyWebsiteComponent(): ReactElement {
   return (
     <div className="min-h-screen bg-white text-gray-900">
       <header role="banner" className="fixed w-full bg-white/80 backdrop-blur-sm z-50 border-b">
@@ -138,10 +137,22 @@ export function CompanyWebsiteComponent() {
 
       <footer className="bg-gray-800 text-white py-8">
         <div className="container mx-auto px-4">
-          <div className="flex justify-center">
+          <div className="flex flex-col items-center space-y-4">
             <div className="text-sm">
               <p>&copy; Waalsforce Inc. All rights reserved.</p>
             </div>
+            <nav className="text-sm">
+              <ul className="flex space-x-4">
+                <li>
+                  <a 
+                    href="/legal/tokushoho" 
+                    className="text-gray-400 hover:text-white transition-colors"
+                  >
+                    特定商取引法に基づく表記
+                  </a>
+                </li>
+              </ul>
+            </nav>
           </div>
         </div>
       </footer>
