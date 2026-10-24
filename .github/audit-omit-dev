@@ -1,0 +1,4 @@
+# CI の Audit を本番依存だけにする目印（読み手: sinoda1114/ci-standard の node-ci.yml。中身は読まれず、存在だけを見る）。
+# 理由: deprecated の @cloudflare/next-on-pages 配下（vercel / miniflare / wrangler）の dev 依存に、修正版が無い high が残るため。
+# 本サイトは output: export の静的サイトで、これらは配信物に入らない。
+# 解消: https://github.com/sinoda1114/my-website/issues/9 で next-on-pages をやめ、next 16 へ移行したらこのファイルを削除する。
